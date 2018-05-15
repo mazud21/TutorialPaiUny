@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "509730682923",
+    "firebase_url": "https://tutorialpaiuny-ed04b.firebaseio.com",
+    "project_id": "tutorialpaiuny-ed04b",
+    "storage_bucket": "tutorialpaiuny-ed04b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509730682923:android:364200d743be1686",
+        "android_client_info": {
+          "package_name": "id.battistrada.tutorialpaiuny"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509730682923-0usdvmc3ih06509kdhv8bk7cd0jd3lhq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.battistrada.tutorialpaiuny",
+            "certificate_hash": "5290a179cef9705714ad92265f3041501d5951c4"
+          }
+        },
+        {
+          "client_id": "509730682923-qskriuke4hnbavm87ht2db5n2v1vhukf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCag_WwiEFS_S-8hnO2sieSMpP6_IbjwHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509730682923-qskriuke4hnbavm87ht2db5n2v1vhukf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

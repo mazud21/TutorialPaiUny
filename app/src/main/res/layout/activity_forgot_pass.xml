@@ -7,7 +7,7 @@
     android:layout_gravity="center"
 
     android:fitsSystemWindows="true"
-    tools:context=".ForgotPass">
+    tools:context=".Auth.ForgotPass">
 
     <LinearLayout
         android:layout_width="fill_parent"

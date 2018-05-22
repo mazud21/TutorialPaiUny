@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="id.battistrada.tutorialpaiuny">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Splash">
+        <activity android:name=".Slide">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -19,15 +19,25 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
-        <activity android:name=".SignIn" />
-        <activity android:name=".SignUp" />
-        <activity android:name=".ForgotPass" />
-        <activity android:name=".Quiz.Quiz" />
-        <service android:name=".Habit.GetCurrentWeatherJobService" android:enabled="true"
+        <activity android:name=".Splash" />
+        <activity android:name=".Auth.SignIn" />
+        <activity android:name=".Auth.SignUp" />
+        <activity android:name=".Auth.ForgotPass" />
+        <activity android:name=".Akademik.Quiz.Quiz" />
+
+        <service
+            android:name=".Habit.GetCurrentWeatherJobService"
+            android:enabled="true"
             android:exported="true"
-            android:permission="android.permission.BIND_JOB_SERVICE"/>
-        <activity android:name=".Habit.Habits"></activity>
-        <activity android:name=".News"></activity>
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <activity android:name=".Habit.Habits" />
+        <activity android:name=".News" />
+        <activity android:name=".Akademik.Akademik" />
+        <activity android:name=".Akademik.Teori" />
+        <activity android:name=".Akademik.Kehadiran" />
+        <activity android:name=".Akademik.NilaiAkhir" />
+        <activity android:name=".Guide"></activity>
     </application>
 
 </manifest>

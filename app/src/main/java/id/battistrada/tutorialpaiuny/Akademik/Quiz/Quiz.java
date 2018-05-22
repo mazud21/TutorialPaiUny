@@ -1,10 +1,9 @@
-package id.battistrada.tutorialpaiuny.Quiz;
+package id.battistrada.tutorialpaiuny.Akademik.Quiz;
 
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.os.CountDownTimer;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -22,7 +21,6 @@ import java.util.Arrays;
 import java.util.Calendar;
 import java.util.List;
 
-import id.battistrada.tutorialpaiuny.MainActivity;
 import id.battistrada.tutorialpaiuny.R;
 
 public class Quiz extends Activity {

@@ -1,4 +1,4 @@
-package id.battistrada.tutorialpaiuny.Quiz;
+package id.battistrada.tutorialpaiuny.Akademik.Quiz;
 
 import android.content.ContentValues;
 import android.content.Context;

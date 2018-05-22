@@ -1,4 +1,4 @@
-package id.battistrada.tutorialpaiuny;
+package id.battistrada.tutorialpaiuny.Auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -14,6 +14,8 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
+
+import id.battistrada.tutorialpaiuny.R;
 
 public class ForgotPass extends AppCompatActivity {
 

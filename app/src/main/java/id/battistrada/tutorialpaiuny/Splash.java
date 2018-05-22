@@ -7,6 +7,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.LinearLayout;
 
+import id.battistrada.tutorialpaiuny.Auth.SignIn;
+
 public class Splash extends AppCompatActivity {
 
     public LinearLayout linearSplash;

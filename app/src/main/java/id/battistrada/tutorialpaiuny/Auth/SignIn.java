@@ -1,4 +1,4 @@
-package id.battistrada.tutorialpaiuny;
+package id.battistrada.tutorialpaiuny.Auth;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -23,6 +23,9 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+
+import id.battistrada.tutorialpaiuny.MainActivity;
+import id.battistrada.tutorialpaiuny.R;
 
 public class SignIn extends AppCompatActivity implements View.OnClickListener{
 
